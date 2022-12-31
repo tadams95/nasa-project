@@ -23,6 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "deploy": "npm run build --prefix client && npm start --prefix server",
+    "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
